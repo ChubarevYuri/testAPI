@@ -40,15 +40,6 @@ namespace testAPI.Controllers
 
             [JsonPropertyName("filename")]
             public string Name { get; set; }
-
-            /*
-             [Route("api/YOURCONTROLLER/{paramOne}/{paramTwo}")]
-    public string Get(int paramOne, int paramTwo)
-    {
-        return "The [Route] with multiple params worked";
-    }
-             */
-
         }
     }
 }
