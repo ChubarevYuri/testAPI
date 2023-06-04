@@ -3,20 +3,17 @@ using System;
 using System.IO;
 using System.Text.Json.Serialization;
 
-namespace testAPI
+namespace testAPI.Objects
 {
     public class Scan
     {
         [JsonPropertyName("scanTime")]
-        public DateTime scanTime { get; set; }
+        public DateTime ScanTime { get; set; }
         [JsonPropertyName("db")]
-        public string db { get; set; }
+        public string DB { get; set; }
         [JsonPropertyName("server")]
-        public string server { get; set; }
+        public string Server { get; set; }
         [JsonPropertyName("errorCount")]
-        public uint errorCount { get; set; }
-
-
-
+        public uint ErrorCount { get; set; }
     }
 }

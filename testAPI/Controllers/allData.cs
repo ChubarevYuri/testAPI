@@ -8,6 +8,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using System.Text;
 using System.Collections;
+using testAPI.Objects;
 
 namespace testAPI.Controllers
 {
@@ -16,12 +17,10 @@ namespace testAPI.Controllers
     public class allData : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<string> Get()
+        public AllData Get()
         {
-            using (StreamReader r = new StreamReader("data.json"))
-            {
-                return Enumerable.Range(1,1).Select(index => r.ReadToEnd()).ToArray();
-            }
+
+            return StaticMethods.AllData;
         }
     }
 }
