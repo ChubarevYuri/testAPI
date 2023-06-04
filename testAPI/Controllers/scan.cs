@@ -10,14 +10,13 @@ using testAPI.Objects;
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class scan : Controller
+    [Route("/scan")]
+    public class Scan : Controller
     {
 
         [HttpGet]
-        public Scan Get()
+        public Objects.Scan Get()
         {
-            AllData  allData = StaticMethods.AllData;
             return StaticMethods.AllData.Scan;
         }
     }

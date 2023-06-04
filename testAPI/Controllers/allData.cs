@@ -13,11 +13,11 @@ using testAPI.Objects;
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class allData : ControllerBase
+    [Route("/allData")]
+    public class AllData : ControllerBase
     {
         [HttpGet]
-        public AllData Get()
+        public Objects.AllData Get()
         {
 
             return StaticMethods.AllData;
