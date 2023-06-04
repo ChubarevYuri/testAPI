@@ -10,7 +10,7 @@ namespace testAPI
         /// <summary>
         /// Путь к файлу
         /// </summary>
-        public const string PATH = "data.json";
+        public const string PATH = "data — копия.json";
 
         /// <summary>
         /// Возвращает десериализованный файл

@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("/query/check")]
+    [Route("query/check")]
     public class QueryCheck : Controller
     {
         [HttpGet]

@@ -3,7 +3,7 @@
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("/allData")]
+    [Route("allData")]
     public class AllData : ControllerBase
     {
         [HttpGet]

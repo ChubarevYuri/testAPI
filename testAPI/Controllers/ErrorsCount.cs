@@ -3,7 +3,7 @@
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("/errors/count")]
+    [Route("errors/count")]
     public class ErrorsCount : Controller
     {
         [HttpGet]

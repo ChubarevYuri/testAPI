@@ -3,7 +3,7 @@
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("/scan")]
+    [Route("scan")]
     public class Scan : Controller
     {
 

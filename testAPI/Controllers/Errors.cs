@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("/errors")]
+    [Route("errors")]
     public class Errors : Controller
     {
         [HttpGet]

@@ -7,7 +7,7 @@ using System.Text.Json.Serialization;
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("/service/serviceInfo")]
+    [Route("service/serviceInfo")]
     public class ServerInfo : Controller
     {
         [HttpGet]

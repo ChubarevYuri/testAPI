@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 namespace testAPI.Controllers
 {
     [ApiController]
-    [Route("/filenames")]
+    [Route("filenames")]
     public class CorrectFileNames : Controller
     {
         [HttpGet]
